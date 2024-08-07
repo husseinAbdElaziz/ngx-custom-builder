@@ -1,0 +1,11 @@
+{
+  "$schema": "http://json-schema.org/schema",
+  "type": "object",
+  "properties": {
+    "customWebpackConfig": {
+      "type": "string",
+      "description": "Path to the custom Webpack configuration file."
+    }
+  },
+  "required": ["customWebpackConfig"]
+}

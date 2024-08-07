@@ -1,0 +1,9 @@
+{
+  "builders": {
+    "browser": {
+      "implementation": "./src/browser",
+      "schema": "./dist/browser/schema.json",
+      "description": "Custom builder that uses a custom Webpack configuration"
+    }
+  }
+}
